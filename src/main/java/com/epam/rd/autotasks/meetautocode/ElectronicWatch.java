@@ -13,7 +13,7 @@ public class ElectronicWatch {
         int hour = seconds/3600;
         hour = hour%24;
 
-        int remainder = number%3600;
+        int remainder = seconds%3600;
         int minute = remainder/60;
         int second = remainder%60;
 
